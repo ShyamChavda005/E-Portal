@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    height:100vh;
+    animation: gradientMove 10s ease infinite;
+}
+
+/* background animation */
+@keyframes gradientMove{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+    animation: fadeSlide 1s ease;
+}
+
+/* card animation */
+@keyframes fadeSlide{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.form-control{
+    border-radius:12px;
+    transition:.3s;
+}
+
+/* input glow */
+.form-control:focus{
+    box-shadow:0 0 10px rgba(0,123,255,.4);
+    transform:scale(1.02);
+}
+
+.btn-custom{
+    background:#4facfe;
+    border:none;
+    border-radius:12px;
+    transition:.3s;
+}
+
+/* button hover animation */
+.btn-custom:hover{
+    background:#00c6ff;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+body{
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    height:100vh;
+    animation: gradientMove 10s ease infinite;
+}
+
+/* background animation */
+@keyframes gradientMove{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+    animation: fadeSlide 1s ease;
+}
+
+/* card animation */
+@keyframes fadeSlide{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.form-control{
+    border-radius:12px;
+    transition:.3s;
+}
+
+/* input glow */
+.form-control:focus{
+    box-shadow:0 0 10px rgba(0,123,255,.4);
+    transform:scale(1.02);
+}
+
+.btn-custom{
+    background:#4facfe;
+    border:none;
+    border-radius:12px;
+    transition:.3s;
+}
+
+/* button hover animation */
+.btn-custom:hover{
+    background:#00c6ff;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
