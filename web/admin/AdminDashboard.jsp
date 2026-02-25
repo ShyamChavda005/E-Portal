@@ -105,16 +105,13 @@
         </style>
     </head>
     <body>
-
-
-        <!-- SIDEBAR -->
         <div class="sidebar" id="sidebar">
 
             <h4><i class="fa-solid fa-graduation-cap"></i> Admin</h4>
 
             <a class="active" href="/ExamPortal/admin/AdminDashboard.jsp"><i class="fa fa-chart-line me-2"></i> Dashboard</a>
             <a href="#"><i class="fa fa-users me-2"></i> Students</a>
-            <a href="#"><i class="fa fa-book me-2"></i> Exams</a>
+            <a href="/ExamPortal/admin/Exam.jsp"><i class="fa fa-book me-2"></i> Exams</a>
             <a href="#"><i class="fa fa-question-circle me-2"></i> Questions</a>
             <a href="#"><i class="fa fa-chart-bar me-2"></i> Results</a>
             <a href="#"><i class="fa fa-gear me-2"></i> Settings</a>
@@ -123,10 +120,8 @@
         </div>
 
 
-        <!-- MAIN CONTENT -->
         <div class="main">
 
-            <!-- TOP BAR -->
             <div class="topbar d-flex justify-content-between align-items-center mb-4">
 
                 <button class="btn btn-outline-primary d-md-none" onclick="toggleSidebar()">
@@ -143,7 +138,6 @@
             </div>
 
 
-            <!-- STATS CARDS -->
             <div class="row g-4">
 
                 <div class="col-md-3">
@@ -177,7 +171,6 @@
             </div>
 
 
-            <!-- TABLE SECTION -->
             <div class="card mt-5 p-4">
 
                 <h5 class="mb-3">Recent Students</h5>
